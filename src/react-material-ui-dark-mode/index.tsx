@@ -5,6 +5,8 @@ import {
   Theme
 } from '@material-ui/core/styles';
 
+import { useTheme } from '@material-ui/core/styles';
+
 interface ThemeProviderProps {
   children: React.ReactNode
   theme: Theme
